@@ -1,12 +1,14 @@
 import sys
 
-if len(sys.argv) !=4:
-  print("Usage:python simple interest.py principal rate time")
-  sys.exit(1)
+if len(sys.argv) != 4:
+    print(f"Usage: python {sys.argv[0]} principal rate time")
+    sys.exit(1)
 
-principal=float(sys.argv[1])
-rate=float(sys.argv[2])
-time=float(sys.argv[3])
 
-simple_interest=(principal*rate*time)/100
-print("Simple Interest=",simple_interest)
+principal = float(sys.argv[1])
+rate = float(sys.argv[2])
+time = float(sys.argv[3])
+
+
+simple_interest = (principal * rate * time) / 100
+print("Simple Interest =", simple_interest)
