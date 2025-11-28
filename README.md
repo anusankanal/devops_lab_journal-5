@@ -1,1 +1,0 @@
-# devops_lab_journal-5
